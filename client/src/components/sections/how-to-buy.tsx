@@ -1,6 +1,8 @@
+import phantomLogo from '@assets/phantom_1758034456075.png';
+
 export default function HowToBuy() {
   const steps = [
-    { emoji: "👛", title: "Step 1", description: "Get a Solana wallet (Phantom, Backpack)" },
+    { emoji: "👛", title: "Step 1", description: "Get a Solana wallet (Phantom, Backpack)", image: phantomLogo },
     { emoji: "💳", title: "Step 2", description: "Buy SOL on exchange (Binance/Coinbase)" },
     { emoji: "🔗", title: "Step 3", description: "Connect wallet to Pump.fun" },
     { emoji: "🔍", title: "Step 4", description: "Search mint address and buy $CNC" }
@@ -24,7 +26,18 @@ export default function HowToBuy() {
                 className="bg-card border border-border rounded-lg p-6 text-center hover-glow transition-all duration-300"
                 data-testid={`buy-step-${index + 1}`}
               >
-                <div className="text-4xl mb-4">{step.emoji}</div>
+                <div className="text-4xl mb-4 flex items-center justify-center">
+                  {step.image ? (
+                    <img 
+                      src={step.image} 
+                      alt={`${step.title} icon`}
+                      className="w-12 h-12 object-contain"
+                      data-testid={`img-step-${index + 1}`}
+                    />
+                  ) : (
+                    step.emoji
+                  )}
+                </div>
                 <h3 className="font-meme font-bold text-gradient mb-2">{step.title}</h3>
                 <p className="text-sm text-muted-foreground">{step.description}</p>
               </div>
