@@ -1,5 +1,6 @@
 import phantomLogo from '@assets/phantom_1758034456075.png';
 import pillImage from '@assets/pump_1758036717572.jpg';
+import pumpLogo from '@assets/pump_1758037406925.jpg';
 
 export default function HowToBuy() {
   const steps = [
@@ -64,10 +65,15 @@ export default function HowToBuy() {
                 href="https://pump.fun/BBk1eEdB6vz53g25H8eguRcpBbHN1w8VeFrRMKKepump"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-bold hover-glow transition-all duration-300 text-center"
+                className="bg-green-500 text-white px-6 py-3 rounded-lg font-bold hover-glow transition-all duration-300 text-center flex items-center justify-center gap-2"
                 data-testid="link-pump-fun"
               >
-                🚀 Buy on Pump.fun
+                <img 
+                  src={pumpLogo} 
+                  alt="Pump.fun logo"
+                  className="w-6 h-6 object-contain"
+                />
+                Buy on Pump.fun
               </a>
             </div>
           </div>
