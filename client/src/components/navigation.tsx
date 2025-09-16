@@ -18,6 +18,7 @@ export default function Navigation() {
     { id: 'tokenomics', label: 'Tokenomics' },
     { id: 'roadmap', label: 'Roadmap' },
     { id: 'buy', label: 'Buy' },
+    { id: 'live-stream', label: 'Live Stream' },
   ];
 
   return (

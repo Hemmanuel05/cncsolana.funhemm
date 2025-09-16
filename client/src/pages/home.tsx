@@ -7,6 +7,7 @@ import Community from "@/components/sections/community";
 import Schedule from "@/components/sections/schedule";
 import SubmitIdea from "@/components/sections/submit-idea";
 import HowToBuy from "@/components/sections/how-to-buy";
+import LiveStream from "@/components/sections/live-stream";
 import Socials from "@/components/sections/socials";
 import Footer from "@/components/footer";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Schedule />
       <SubmitIdea />
       <HowToBuy />
+      <LiveStream />
       <Socials />
       <Footer />
     </div>
