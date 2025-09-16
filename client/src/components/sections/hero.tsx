@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-meme font-bold text-white mb-4 hero-title">
-          CNSOLANA
+          Creativity & Collaboration
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-2 font-meme hero-subtitle">
           Fuel Creativity, Reward Collaboration – $CNC on Solana
