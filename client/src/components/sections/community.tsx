@@ -69,7 +69,7 @@ export default function Community() {
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <Label htmlFor="communityName" className="block text-sm font-medium text-muted-foreground mb-2">
-                  Name
+                  X Name
                 </Label>
                 <Input
                   id="communityName"
