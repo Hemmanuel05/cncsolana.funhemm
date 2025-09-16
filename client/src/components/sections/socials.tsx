@@ -1,3 +1,5 @@
+import dexLogo from '@assets/dex_1758036623952.jpg';
+
 export default function Socials() {
   const socialLinks = [
     {
@@ -59,8 +61,12 @@ export default function Socials() {
             <h3 className="text-2xl font-meme font-bold text-gradient mb-6">Track $CNC</h3>
             <div className="text-center">
               <div className="flex items-center justify-center space-x-4 mb-4">
-                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center text-white font-bold text-lg" data-testid="dexscreener-logo-large">
-                  DS
+                <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden" data-testid="dexscreener-logo-large">
+                  <img 
+                    src={dexLogo} 
+                    alt="DexScreener logo"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="flex space-x-2">
                   <span className="text-green-400 bounce-arrow text-2xl" data-testid="arrow-up-large">↑</span>
