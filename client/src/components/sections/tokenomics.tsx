@@ -1,3 +1,5 @@
+import dexLogo from '@assets/dex_1758036668341.jpg';
+
 export default function Tokenomics() {
   return (
     <section id="tokenomics" className="py-20 bg-muted/20">
@@ -32,8 +34,12 @@ export default function Tokenomics() {
           <div className="bg-card border border-border rounded-lg p-6">
             <h3 className="text-2xl font-meme font-bold text-gradient mb-4">📈 Track Price</h3>
             <div className="flex items-center justify-center space-x-4">
-              <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white font-bold" data-testid="dexscreener-logo">
-                DS
+              <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden" data-testid="dexscreener-logo">
+                <img 
+                  src={dexLogo} 
+                  alt="DexScreener logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="flex space-x-2">
                 <span className="text-green-400 bounce-arrow" data-testid="arrow-up">↑</span>
