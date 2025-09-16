@@ -1,11 +1,18 @@
+import cncLogo from '@assets/cnc_1758033632825.png';
+
 export default function Hero() {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center gradient-bg relative overflow-hidden">
       <div className="container mx-auto px-4 text-center relative z-10">
         {/* Spinning Logo */}
         <div className="mb-8">
-          <div className="w-48 h-48 mx-auto spin-slow rounded-full gradient-bg flex items-center justify-center text-6xl mb-4 hover-glow hero-logo">
-            🎨
+          <div className="w-48 h-48 mx-auto spin-slow rounded-full bg-white/90 flex items-center justify-center mb-4 hover-glow hero-logo border-4 border-cnc-orange shadow-2xl">
+            <img 
+              src={cncLogo} 
+              alt="CNC Solana Logo" 
+              className="w-40 h-40 object-contain"
+              data-testid="img-main-logo"
+            />
           </div>
         </div>
         
@@ -23,7 +30,7 @@ export default function Hero() {
           href="https://pump.fun/BBk1eEdB6vz53g25H8eguRcpBbHN1w8VeFrRMKKepump"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-white text-purple-600 px-8 py-4 rounded-full text-xl font-bold hover-glow transition-all duration-300 transform hover:scale-105"
+          className="inline-block bg-cnc-orange text-white px-8 py-4 rounded-full text-xl font-bold hover-glow transition-all duration-300 transform hover:scale-105 shadow-lg"
           data-testid="button-buy-cta"
         >
           🚀 Buy $CNC Now

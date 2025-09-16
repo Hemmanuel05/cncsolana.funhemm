@@ -61,9 +61,9 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
-        'solana-purple': 'var(--solana-purple)',
-        'solana-pink': 'var(--solana-pink)',
-        'solana-blue': 'var(--solana-blue)',
+        'cnc-orange': 'var(--cnc-orange)',
+        'cnc-yellow': 'var(--cnc-yellow)',
+        'cnc-blue': 'var(--cnc-blue)',
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
@@ -90,10 +90,10 @@ export default {
         },
         glow: {
           from: {
-            boxShadow: "0 0 20px rgba(111, 66, 193, 0.5), 0 0 40px rgba(255, 105, 180, 0.3), 0 0 60px rgba(0, 212, 255, 0.2)",
+            boxShadow: "0 0 20px rgba(255, 140, 0, 0.5), 0 0 40px rgba(255, 193, 7, 0.3), 0 0 60px rgba(0, 174, 255, 0.2)",
           },
           to: {
-            boxShadow: "0 0 30px rgba(111, 66, 193, 0.8), 0 0 60px rgba(255, 105, 180, 0.5), 0 0 80px rgba(0, 212, 255, 0.3)",
+            boxShadow: "0 0 30px rgba(255, 140, 0, 0.8), 0 0 60px rgba(255, 193, 7, 0.5), 0 0 80px rgba(0, 174, 255, 0.3)",
           },
         },
         spin: {

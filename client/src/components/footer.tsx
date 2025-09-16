@@ -1,3 +1,5 @@
+import cncLogo from '@assets/cnc_1758033632825.png';
+
 export default function Footer() {
   const footerLinks = [
     { emoji: "🐦", label: "Twitter", url: "https://x.com/CNSOLANA_X" },
@@ -9,8 +11,12 @@ export default function Footer() {
     <footer className="bg-background border-t border-border py-12">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <div className="w-16 h-16 mx-auto mb-4 rounded-full gradient-bg flex items-center justify-center text-2xl">
-            🎨
+          <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-white/90 flex items-center justify-center border-2 border-cnc-orange">
+            <img 
+              src={cncLogo} 
+              alt="CNC Solana Logo" 
+              className="w-12 h-12 object-contain"
+            />
           </div>
           <p className="text-xl font-meme font-bold text-gradient mb-4">
             Join the $CNC Revolution on cncsolana.fun

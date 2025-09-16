@@ -50,10 +50,10 @@
   --shadow-2xl: 0px 2px 0px 0px hsl(262, 83%, 58%, 0.00);
   --spacing: 0.25rem;
   
-  /* Solana neon theme colors */
-  --solana-purple: hsl(262, 83%, 58%);
-  --solana-pink: hsl(330, 100%, 71%);
-  --solana-blue: hsl(194, 100%, 50%);
+  /* CNC complementary theme colors */
+  --cnc-orange: hsl(25, 95%, 53%);
+  --cnc-yellow: hsl(45, 100%, 60%);
+  --cnc-blue: hsl(200, 100%, 50%);
 }
 
 .dark {
@@ -95,21 +95,21 @@
 
 @layer components {
   .gradient-bg {
-    background: linear-gradient(135deg, var(--solana-purple) 0%, var(--solana-pink) 50%, var(--solana-blue) 100%);
+    background: linear-gradient(135deg, var(--cnc-orange) 0%, var(--cnc-yellow) 50%, var(--cnc-blue) 100%);
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, var(--solana-purple) 0%, var(--solana-pink) 50%, var(--solana-blue) 100%);
+    background: linear-gradient(135deg, var(--cnc-orange) 0%, var(--cnc-yellow) 50%, var(--cnc-blue) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .pump-bg {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="50" font-size="40" fill="%23FFFFFF">🚀</text></svg>');
+    background-image: url('@assets/pump_1758033632826.jpg');
     background-repeat: repeat;
-    background-size: 100px 100px;
-    opacity: 0.1;
+    background-size: 80px 80px;
+    opacity: 0.05;
     position: fixed;
     top: 0;
     left: 0;
@@ -139,10 +139,10 @@
 @layer utilities {
   @keyframes glow {
     from {
-      box-shadow: 0 0 20px rgba(111, 66, 193, 0.5), 0 0 40px rgba(255, 105, 180, 0.3), 0 0 60px rgba(0, 212, 255, 0.2);
+      box-shadow: 0 0 20px rgba(255, 140, 0, 0.5), 0 0 40px rgba(255, 193, 7, 0.3), 0 0 60px rgba(0, 174, 255, 0.2);
     }
     to {
-      box-shadow: 0 0 30px rgba(111, 66, 193, 0.8), 0 0 60px rgba(255, 105, 180, 0.5), 0 0 80px rgba(0, 212, 255, 0.3);
+      box-shadow: 0 0 30px rgba(255, 140, 0, 0.8), 0 0 60px rgba(255, 193, 7, 0.5), 0 0 80px rgba(0, 174, 255, 0.3);
     }
   }
 
