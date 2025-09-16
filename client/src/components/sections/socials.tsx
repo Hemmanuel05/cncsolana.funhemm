@@ -2,12 +2,6 @@ export default function Socials() {
   const socialLinks = [
     {
       emoji: "🐦",
-      title: "@CNSOLANA_X",
-      description: "Official Twitter Account",
-      url: "https://x.com/CNSOLANA_X"
-    },
-    {
-      emoji: "🐦",
       title: "@cncsolana",
       description: "Official X Handle",
       url: "https://x.com/cncsolana"
