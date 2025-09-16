@@ -83,7 +83,7 @@ export default function Community() {
               </div>
               <div>
                 <Label htmlFor="communityIdea" className="block text-sm font-medium text-muted-foreground mb-2">
-                  Your Idea/Role
+                  Share Your Idea
                 </Label>
                 <Textarea
                   id="communityIdea"
