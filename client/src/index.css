@@ -95,7 +95,7 @@
 
 @layer components {
   .gradient-bg {
-    background: linear-gradient(135deg, var(--cnc-orange) 0%, var(--cnc-yellow) 50%, var(--cnc-blue) 100%);
+    background: hsl(220, 85%, 20%);
   }
 
   .text-gradient {
