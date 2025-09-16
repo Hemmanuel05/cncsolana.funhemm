@@ -1,10 +1,11 @@
 import phantomLogo from '@assets/phantom_1758034456075.png';
+import pillImage from '@assets/pump_1758036717572.jpg';
 
 export default function HowToBuy() {
   const steps = [
     { emoji: "👛", title: "Step 1", description: "Get a Solana wallet (Phantom, Backpack)", image: phantomLogo },
     { emoji: "💳", title: "Step 2", description: "Buy SOL on exchange (Binance/Coinbase)" },
-    { emoji: "💊", title: "Step 3", description: "Connect wallet to Pump.fun" },
+    { emoji: "💊", title: "Step 3", description: "Connect wallet to Pump.fun", image: pillImage },
     { emoji: "🔍", title: "Step 4", description: "Search mint address and buy $CNC" }
   ];
 
