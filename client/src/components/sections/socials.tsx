@@ -10,18 +10,6 @@ export default function Socials() {
     }
   ];
 
-  const mockTweets = [
-    {
-      handle: "@CNSOLANA_X",
-      time: "2h",
-      content: "🚀 $CNC holders - the future is bright! New partnerships incoming... 👀 #CNSOLANA #Solana"
-    },
-    {
-      handle: "@CNSOLANA_X", 
-      time: "4h",
-      content: "Community talent show submissions are INSANE! 🔥 Can't wait to announce winners next week! 🏆 #CNCTalent"
-    }
-  ];
 
   return (
     <section id="socials" className="py-20 bg-muted/20">
@@ -86,27 +74,6 @@ export default function Socials() {
           </div>
         </div>
 
-        {/* Twitter Timeline Placeholder */}
-        <div className="max-w-2xl mx-auto mt-12">
-          <div className="bg-card border border-border rounded-lg p-6 text-center">
-            <h3 className="text-xl font-meme font-bold text-gradient mb-4">Latest Tweets</h3>
-            <p className="text-muted-foreground mb-4 text-sm">
-              Follow @CNSOLANA_X for the latest updates and community news
-            </p>
-            <div className="space-y-4 text-left">
-              {mockTweets.map((tweet, index) => (
-                <div key={index} className="bg-muted p-4 rounded-lg" data-testid={`mock-tweet-${index}`}>
-                  <div className="flex items-center space-x-3 mb-2">
-                    <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
-                    <span className="font-bold">{tweet.handle}</span>
-                    <span className="text-sm text-muted-foreground">{tweet.time}</span>
-                  </div>
-                  <p className="text-sm">{tweet.content}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
