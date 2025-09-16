@@ -41,7 +41,7 @@ export default function SubmitIdea() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <Label htmlFor="ideaName" className="block text-sm font-medium text-muted-foreground mb-2">
-                  Name *
+                  Your X Username *
                 </Label>
                 <Input
                   id="ideaName"
