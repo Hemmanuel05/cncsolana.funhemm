@@ -5,12 +5,6 @@ export default function Socials() {
       title: "@CNSOLANA_X",
       description: "Official Twitter Account",
       url: "https://x.com/CNSOLANA_X"
-    },
-    {
-      emoji: "👥", 
-      title: "CNSOLANA Community",
-      description: "Join the conversation",
-      url: "https://x.com/communities/CNSOLANA"
     }
   ];
 
