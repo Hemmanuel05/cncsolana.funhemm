@@ -100,7 +100,7 @@ export default function Community() {
                 className="w-full bg-primary text-primary-foreground hover-glow transition-all duration-300"
                 data-testid="button-join-revolution"
               >
-                Join the Revolution 🔥
+                Submit
               </Button>
             </form>
           </div>
