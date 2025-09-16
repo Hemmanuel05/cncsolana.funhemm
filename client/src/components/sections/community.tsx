@@ -65,7 +65,7 @@ export default function Community() {
 
           {/* Join Form */}
           <div className="bg-card border border-border rounded-lg p-6">
-            <h3 className="text-2xl font-meme font-bold text-gradient mb-4">🚀 Join the Revolution</h3>
+            <h3 className="text-2xl font-meme font-bold text-gradient mb-4">Idea Box</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <Label htmlFor="communityName" className="block text-sm font-medium text-muted-foreground mb-2">
