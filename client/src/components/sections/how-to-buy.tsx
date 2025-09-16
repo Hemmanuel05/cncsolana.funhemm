@@ -16,7 +16,7 @@ export default function HowToBuy() {
           <h2 className="text-4xl md:text-5xl font-meme font-bold text-gradient mb-6">
             How to Buy $CNC
           </h2>
-          <p className="text-lg text-muted-foreground">Follow these simple steps to join the revolution</p>
+          <p className="text-lg text-muted-foreground">Follow these simple steps</p>
         </div>
 
         <div className="max-w-4xl mx-auto">
